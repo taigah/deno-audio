@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+deno run -A example/gen.ts&& ffplay -showmode 1 -f f32le -ar 44100 audio.bin
